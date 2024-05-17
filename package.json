@@ -1,7 +1,6 @@
 {
   "name": "openllm-site",
   "version": "0.1.0",
-  "homepage": "https://OpenLLM-Ro.github.io/website",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
