@@ -1,6 +1,7 @@
 {
   "name": "cram-site",
   "version": "0.1.0",
+  "homepage": "https://OpenLLM-Ro.github.io/website",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
@@ -29,6 +30,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -60,6 +63,7 @@
   "devDependencies": {
     "eslint": "^8.54.0",
     "eslint-plugin-react": "^7.33.2",
+    "gh-pages": "^6.1.1",
     "husky": "^8.0.3",
     "lint-staged": "^15.1.0",
     "prettier": "3.1.0"
