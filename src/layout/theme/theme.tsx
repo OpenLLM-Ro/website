@@ -8,15 +8,10 @@ export const theme = extendTheme({
     body: `'Montserrat', sans-serif`,
     heading: `'Montserrat', sans-serif`,
   },
-  defaultProps: {
-    fontWeight: 'thin',
-  },
   components: {
     Button: {
-      variants: {
-        footer: {
-          fontWeight: 'thin',
-        },
+      baseStyle: {
+        fontWeight: 'thin',
       },
     },
   },
