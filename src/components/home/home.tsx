@@ -7,7 +7,7 @@ import comunicat from './comunicat.pdf';
 const Title = () => {
   return (
     <Stack spacing={'8'} marginTop={'5%'} textAlign={'center'}>
-      <Heading as={'h1'} size={'3xl'} textTransform={'uppercase'}>
+      <Heading as={'h1'} size={'3xl'}>
         OpenLLM-Ro
       </Heading>
     </Stack>
@@ -39,10 +39,10 @@ export const News = () => (
       as={'a'}
       href={'https://huggingface.co/collections/OpenLLM-Ro/romistral-6647241bf2cbbe9fd8c2afa4'}
     >
-      17.05.2024 - launched new Romanian model fine tuned on Mistral
+      17.05.2024 - launched new Romanian model fine-tuned on Mistral
     </Button>
     <Button as={'a'} variant={'news'} href={comunicat}>
-      14.05.2024 - launched the first models
+      14.05.2024 - launched the first Romanian models fine-tuned on Llama2
     </Button>
   </Stack>
 );
