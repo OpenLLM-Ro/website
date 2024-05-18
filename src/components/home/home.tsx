@@ -6,7 +6,7 @@ import comunicat from './comunicat.pdf';
 
 const Title = () => {
   return (
-    <Heading paddingTop={['25vh']} as={'h1'} size={['2xl', '4xl']} textTransform={'uppercase'}>
+    <Heading paddingTop={['25vh']} as={'h1'} size={['2xl', '4xl']}>
       OpenLLM-Ro
     </Heading>
   );
