@@ -33,8 +33,20 @@ export const News = () => (
     <Text as={'kbd'} fontWeight={'bold'}>
       News:
     </Text>
-    <Text as={'kbd'}>17.05.2024 - launched new Romanian model fine tuned on Mistral</Text>
-    <Text as={'kbd'}>14.05.2024 - launched the first models</Text>
+    <Button
+      variant={'news'}
+      as={'a'}
+      href={'https://huggingface.co/collections/OpenLLM-Ro/romistral-6647241bf2cbbe9fd8c2afa4'}
+    >
+      17.05.2024 - launched new Romanian model fine tuned on Mistral
+    </Button>
+    <Button
+      as={'a'}
+      variant={'news'}
+      href={'https://drive.google.com/file/d/1sSWkS0NxpG4t8Hco8AGX8p7UaKzvG0au/view?usp=sharing'}
+    >
+      14.05.2024 - launched the first models
+    </Button>
   </Stack>
 );
 

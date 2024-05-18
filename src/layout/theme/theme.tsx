@@ -12,6 +12,15 @@ export const theme = extendTheme({
       baseStyle: {
         fontWeight: 'thin',
       },
+      variants: {
+        news: {
+          fontFamily: 'monospace',
+          justifyContent: 'flex-start',
+          _hover: {
+            color: 'blue.200',
+          },
+        },
+      },
     },
   },
 });
