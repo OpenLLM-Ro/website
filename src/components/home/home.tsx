@@ -39,10 +39,13 @@ export const News = () => (
       as={'a'}
       href={'https://huggingface.co/collections/OpenLLM-Ro/romistral-6647241bf2cbbe9fd8c2afa4'}
     >
-      17.05.2024 - launched new Romanian model fine-tuned on Mistral
+      17.05.2024 - launched a new Romanian model fine-tuned on Mistral
     </Button>
-    <Button as={'a'} variant={'news'} href={comunicat}>
+    <Button variant={'news'} as={'a'} href={'https://huggingface.co/collections/OpenLLM-Ro/rollama2-664722bbf536ec14701ec81d'}>
       14.05.2024 - launched the first Romanian models fine-tuned on Llama2
+    </Button>
+    <Button variant={'news'} as={'a'} href={comunicat}>
+      14.05.2024 - press release (in Romanian) regarding the launch of OpenLLM-Ro 
     </Button>
   </Stack>
 );
