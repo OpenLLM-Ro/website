@@ -1,16 +1,11 @@
 import React from 'react';
-import { Button, Heading, HStack, Icon, Image, Stack } from '@chakra-ui/react';
+import { Button, Heading, HStack, Icon, Image, Stack, Text } from '@chakra-ui/react';
 import { FaGithub } from 'react-icons/fa';
 import { NewsBulletin } from './news';
 import hfIcon from './hf-logo.svg';
 
 const Buttons = () => (
-  <HStack
-    padding={['3vh 10vw', '5vh 10vw 0']}
-    wrap={'wrap'}
-    align={'center'}
-    justifyContent={'center'}
-  >
+  <HStack padding={['3vh 10vw', '0 10vw']} wrap={'wrap'} align={'center'} justifyContent={'center'}>
     <Button
       leftIcon={<Icon as={Image} src={hfIcon} />}
       as={'a'}
@@ -30,9 +25,9 @@ export const Home = () => {
       <Heading paddingTop={['25vh']} as={'h1'} size={['2xl', '4xl']}>
         OpenLLM-Ro
       </Heading>
-      <Heading padding={'0 5vw'} as={'h2'} size={['l', 'xl']} textAlign={'center'}>
-        Join the community building open LLMs for Romanian:
-      </Heading>
+      <Text padding={'3vh 5vw 2vh'} textAlign={'center'}>
+        Join our community building open LLMs for Romanian
+      </Text>
       <Buttons />
       <NewsBulletin />
     </Stack>
