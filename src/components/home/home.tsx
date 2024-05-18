@@ -6,7 +6,7 @@ import comunicat from './comunicat.pdf';
 
 const Title = () => {
   return (
-    <Stack spacing={'8'} marginTop={['20%', '5%']} padding={'0 5vw'} textAlign={'center'}>
+    <Stack spacing={'8'} marginTop={'5%'} padding={'0 5vw'} textAlign={'center'}>
       <Heading as={'h1'} size={['2xl', '3xl']} textTransform={'uppercase'}>
         OpenLLM-Ro
       </Heading>
