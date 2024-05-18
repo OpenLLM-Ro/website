@@ -6,6 +6,8 @@ import { theme } from 'src/layout/theme';
 import { Footer } from 'src/layout/footer';
 
 function App() {
+  localStorage.setItem('chakra-ui-color-mode', 'dark');
+
   return (
     <ChakraProvider theme={theme}>
       <RouterProvider router={router} />
