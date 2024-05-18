@@ -6,8 +6,8 @@ import comunicat from './comunicat.pdf';
 
 const Title = () => {
   return (
-    <Stack spacing={'8'} marginTop={'5%'} textAlign={'center'}>
-      <Heading as={'h1'} size={'3xl'} textTransform={'uppercase'}>
+    <Stack spacing={'8'} marginTop={'5%'} padding={'0 2vw'} textAlign={'center'}>
+      <Heading as={'h1'} size={['2xl', '3xl']} textTransform={'uppercase'}>
         OpenLLM-Ro
       </Heading>
     </Stack>
@@ -15,7 +15,7 @@ const Title = () => {
 };
 
 const Buttons = () => (
-  <HStack wrap={'wrap'} align={'center'} justifyContent={'center'}>
+  <HStack wrap={'wrap'} align={'center'} justifyContent={'center'} padding={'0 10vw'}>
     <Button
       leftIcon={<Icon as={Image} src={hfIcon} />}
       as={'a'}
@@ -30,33 +30,26 @@ const Buttons = () => (
 );
 
 export const News = () => (
-  <Stack>
+  <Stack padding={'0 10vw'}>
     <Text as={'kbd'} fontWeight={'bold'}>
       News:
     </Text>
-    <Button
+    <Text
       variant={'news'}
       as={'a'}
       href={'https://huggingface.co/collections/OpenLLM-Ro/romistral-6647241bf2cbbe9fd8c2afa4'}
     >
       17.05.2024 - launched new Romanian model fine tuned on Mistral
-    </Button>
-    <Button as={'a'} variant={'news'} href={comunicat}>
+    </Text>
+    <Text variant={'news'} as={'a'} href={comunicat}>
       14.05.2024 - launched the first models
-    </Button>
+    </Text>
   </Stack>
 );
 
 export const Home = () => {
   return (
-    <Stack
-      id={'home'}
-      height={'90vh'}
-      padding={'10vw'}
-      justifyContent={'center'}
-      alignItems={'center'}
-      spacing={6}
-    >
+    <Stack id={'home'} height={'90vh'} justifyContent={'center'} alignItems={'center'} spacing={6}>
       <Title />
       <Buttons />
       <News />

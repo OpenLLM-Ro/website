@@ -22,5 +22,18 @@ export const theme = extendTheme({
         },
       },
     },
+    Text: {
+      variants: {
+        news: {
+          fontFamily: 'monospace',
+          justifyContent: 'flex-start',
+          fontSize: 'md',
+          paddingLeft: '16px',
+          _hover: {
+            color: 'blue.200',
+          },
+        },
+      },
+    },
   },
 });
