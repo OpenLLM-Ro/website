@@ -6,16 +6,19 @@ import comunicat from './comunicat.pdf';
 
 const Title = () => {
   return (
-    <Stack spacing={'8'} marginTop={'5%'} padding={'0 5vw'} textAlign={'center'}>
-      <Heading as={'h1'} size={['2xl', '3xl']} textTransform={'uppercase'}>
-        OpenLLM-Ro
-      </Heading>
-    </Stack>
+    <Heading paddingTop={['25vh']} as={'h1'} size={['2xl', '4xl']} textTransform={'uppercase'}>
+      OpenLLM-Ro
+    </Heading>
   );
 };
 
 const Buttons = () => (
-  <HStack wrap={'wrap'} align={'center'} justifyContent={'center'} padding={'0 10vw'}>
+  <HStack
+    padding={['3vh 10vw', '5vh 10vw 0']}
+    wrap={'wrap'}
+    align={'center'}
+    justifyContent={'center'}
+  >
     <Button
       leftIcon={<Icon as={Image} src={hfIcon} />}
       as={'a'}
@@ -30,7 +33,7 @@ const Buttons = () => (
 );
 
 export const News = () => (
-  <Stack padding={'0 10vw'}>
+  <Stack padding={['8vh 10vw']}>
     <Text as={'kbd'} fontWeight={'bold'}>
       News:
     </Text>
@@ -56,14 +59,7 @@ export const News = () => (
 
 export const Home = () => {
   return (
-    <Stack
-      id={'home'}
-      minHeight={'90vh'}
-      padding={'5vh 0'}
-      justifyContent={'center'}
-      alignItems={'center'}
-      spacing={6}
-    >
+    <Stack id={'home'} minHeight={'90vh'} justifyContent={'center'} alignItems={'center'}>
       <Title />
       <Buttons />
       <News />
