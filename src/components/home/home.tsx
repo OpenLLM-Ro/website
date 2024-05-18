@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Heading, HStack, Icon, Image, Stack, Text } from '@chakra-ui/react';
 import { FaGithub } from 'react-icons/fa';
 import hfIcon from './hf-logo.svg';
+import comunicat from './comunicat.pdf';
 
 const Title = () => {
   return (
@@ -40,11 +41,7 @@ export const News = () => (
     >
       17.05.2024 - launched new Romanian model fine tuned on Mistral
     </Button>
-    <Button
-      as={'a'}
-      variant={'news'}
-      href={'https://drive.google.com/file/d/1sSWkS0NxpG4t8Hco8AGX8p7UaKzvG0au/view?usp=sharing'}
-    >
+    <Button as={'a'} variant={'news'} href={comunicat}>
       14.05.2024 - launched the first models
     </Button>
   </Stack>
