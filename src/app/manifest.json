@@ -1,6 +1,7 @@
 {
   "short_name": "OpenLLM-Ro",
   "name": "OpenLLM-Ro",
+  "description": "Join our community building open LLMs for Romanian",
   "icons": [
     {
       "src": "favicon.svg",
