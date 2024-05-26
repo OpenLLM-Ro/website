@@ -1,6 +1,5 @@
 import React, { ReactNode } from 'react';
 import { Stack, Text } from '@chakra-ui/react';
-import comunicat from './comunicat.pdf';
 
 const News: React.FC<{ link: string; children: ReactNode }> = ({ link, children }) => (
   <Text variant={'news'} as={'a'} target={'_blank'} rel={'noreferrer'} href={link}>
@@ -19,7 +18,7 @@ export const NewsBulletin = () => (
     <News link={'https://huggingface.co/collections/OpenLLM-Ro/rollama2-664722bbf536ec14701ec81d'}>
       14.05.2024 - launched the first Romanian models fine-tuned on Llama2
     </News>
-    <News link={comunicat}>
+    <News link={'/comunicat.pdf'}>
       14.05.2024 - press release (in Romanian) regarding the launch of OpenLLM-Ro
     </News>
   </Stack>

@@ -4,3 +4,7 @@ coverage
 
 # Ignore all HTML files:
 **/*.html
+
+# next.js
+/.next/
+/out/

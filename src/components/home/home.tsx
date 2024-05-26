@@ -1,13 +1,14 @@
 import React from 'react';
-import { Button, Heading, HStack, Icon, Image, Stack, Text } from '@chakra-ui/react';
+import { Button, Heading, HStack, Icon, Stack, Text } from '@chakra-ui/react';
+import Image from 'next/image';
 import { FaGithub } from 'react-icons/fa';
 import { NewsBulletin } from './news';
 import hfIcon from './hf-logo.svg';
 
-const Buttons = () => (
+export const Buttons = () => (
   <HStack padding={['3vh 10vw', '0 10vw']} wrap={'wrap'} align={'center'} justifyContent={'center'}>
     <Button
-      leftIcon={<Icon as={Image} src={hfIcon} />}
+      leftIcon={<Icon as={Image} src={hfIcon} alt={'HuggingFace Logo'} />}
       as={'a'}
       href={'https://huggingface.co/OpenLLM-Ro'}
     >
