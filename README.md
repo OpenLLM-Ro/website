@@ -14,9 +14,3 @@ To set up production (is done automatically on push):
 npm run build
 npm run start
 ```
-
-To export the app as static HTML:
-
-```shell
-npm run export
-```
