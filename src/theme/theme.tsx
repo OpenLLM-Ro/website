@@ -27,6 +27,13 @@ export const theme = extendTheme({
             color: 'blue.200',
           },
         },
+        ghost: {
+          bg: 'whiteAlpha.200',
+          color: 'whiteAlpha.900',
+          _hover: {
+            bg: 'whiteAlpha.300',
+          },
+        },
       },
     },
     Text: {

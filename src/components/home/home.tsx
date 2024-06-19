@@ -9,12 +9,18 @@ export const Buttons = () => (
   <HStack padding={['3vh 10vw', '0 10vw']} wrap={'wrap'} align={'center'} justifyContent={'center'}>
     <Button
       leftIcon={<Icon as={Image} src={hfIcon} alt={'HuggingFace Logo'} />}
+      variant={'ghost'}
       as={'a'}
       href={'https://huggingface.co/OpenLLM-Ro'}
     >
       HuggingFace
     </Button>
-    <Button leftIcon={<FaGithub />} as={'a'} href={'https://github.com/openllm-ro'}>
+    <Button
+      leftIcon={<FaGithub />}
+      variant={'ghost'}
+      as={'a'}
+      href={'https://github.com/openllm-ro'}
+    >
       GitHub
     </Button>
   </HStack>
