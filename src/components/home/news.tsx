@@ -12,11 +12,11 @@ export const NewsBulletin = () => (
     <Text as={'kbd'} fontWeight={'bold'}>
       News:
     </Text>
-    <News link={'https://huggingface.co/collections/OpenLLM-Ro/rogemma-667d261f6b607a23173c1e73'}>
-      28.06.2024 - launched a new Romanian model fine-tuned on Gemma
-    </News>
     <News link={'https://huggingface.co/collections/OpenLLM-Ro/rollama3-667d25e2db6a8e980f0b1551'}>
       28.06.2024 - launched a new Romanian model fine-tuned on Llama3
+    </News>
+    <News link={'https://huggingface.co/collections/OpenLLM-Ro/rogemma-667d261f6b607a23173c1e73'}>
+      28.06.2024 - launched a new Romanian model fine-tuned on Gemma
     </News>
     <News link={'https://arxiv.org/abs/2406.18266'}>
       27.06.2024 - new preprint adding more models and evaluations
