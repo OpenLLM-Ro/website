@@ -19,7 +19,7 @@ export const NewsBulletin = () => (
       28.06.2024 - launched a new Romanian model fine-tuned on Llama3
     </News>
     <News link={'https://arxiv.org/abs/2406.18266'}>
-      28.06.2024 - new preprint adding more models and evaluations
+      27.06.2024 - new preprint adding more models and evaluations
     </News>
     <News link={'https://huggingface.co/collections/OpenLLM-Ro/romistral-6647241bf2cbbe9fd8c2afa4'}>
       17.05.2024 - launched a new Romanian model fine-tuned on Mistral
