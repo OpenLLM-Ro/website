@@ -13,7 +13,7 @@ export const NewsBulletin = () => (
       News:
     </Text>
     <News link={'https://github.com/OpenLLM-Ro/lm-evaluation-harness'}>
-      28.06.2024 - released the code for evaluating Romanian LLMs on academic benchmarks and downstream tasks
+      28.06.2024 - released the code & data for evaluating Romanian LLMs on academic benchmarks and downstream tasks
     </News>
     <News link={'https://huggingface.co/collections/OpenLLM-Ro/rollama3-667d25e2db6a8e980f0b1551'}>
       28.06.2024 - launched a new Romanian model fine-tuned on Llama3
