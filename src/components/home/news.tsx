@@ -14,15 +14,15 @@ export const NewsBulletin = () => (
     </Text>
     
     <News link={'https://github.com/OpenLLM-Ro/LLaMA-Factory'}>
-      28.06.2024 - released the code & data for training Romanian LLMs
+      14.08.2024 - released the code & data for training Romanian LLMs
     </News>
 
     <News link={'https://github.com/OpenLLM-Ro/lm-evaluation-harness'}>
-      14.08.2024 - released the code & data for evaluating Romanian LLMs on academic benchmarks and downstream tasks
+      09.08.2024 - released the code & data for evaluating Romanian LLMs on academic benchmarks and downstream tasks
     </News>
     
     <News link={'https://huggingface.co/collections/OpenLLM-Ro/rollama3-667d25e2db6a8e980f0b1551'}>
-      09.08.2024 - launched a new Romanian model fine-tuned on Llama3
+      28.06.2024 - launched a new Romanian model fine-tuned on Llama3
     </News>
     
     <News link={'https://huggingface.co/collections/OpenLLM-Ro/rogemma-667d261f6b607a23173c1e73'}>
