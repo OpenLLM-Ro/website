@@ -12,6 +12,11 @@ export const NewsBulletin = () => (
     <Text as={'kbd'} fontWeight={'bold'}>
       News:
     </Text>
+
+    <News link={'https://github.com/OpenLLM-Ro/FastChat'}>
+      26.08.2024 - released the code & data (RoMTBench and RoCulturaBench) for evaluating Romanian LLMs using LLM-as-a-Judge
+    </News>
+
     
     <News link={'https://github.com/OpenLLM-Ro/LLaMA-Factory'}>
       14.08.2024 - released the code & data for training Romanian LLMs
