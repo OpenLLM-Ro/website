@@ -13,11 +13,14 @@ export const NewsBulletin = () => (
       News:
     </Text>
 
+    <News link={'https://ilds.ro/workshop-llms-for-romanian'}>
+      28.09.2024 - workshop LLMs for Romanian
+    </News>
+    
     <News link={'https://github.com/OpenLLM-Ro/FastChat'}>
       26.08.2024 - released the code & data (RoMTBench and RoCulturaBench) for evaluating Romanian LLMs using LLM-as-a-Judge
     </News>
 
-    
     <News link={'https://github.com/OpenLLM-Ro/LLaMA-Factory'}>
       14.08.2024 - released the code & data for training Romanian LLMs
     </News>
