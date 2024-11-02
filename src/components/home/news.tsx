@@ -25,13 +25,13 @@ export const NewsBulletin = () => {
       link: 'https://github.com/OpenLLM-Ro/FastChat',
       date: '2024-08-26',
       type: 'Code',
-      text: 'Open sourced the code and data used for evaluating Romanian LLMs using LLM-as-a-Judge',
+      text: 'Open sourced the code and data used for evaluating the Romanian LLMs using LLM-as-a-Judge',
     },
     {
       link: 'https://github.com/OpenLLM-Ro/LLaMA-Factory',
       date: '2024-08-14',
       type: 'Code',
-      text: 'Open sourced the code and data used to train Romanian LLMs.',
+      text: 'Open sourced the code and data used to train the Romanian LLMs.',
     },
     {
       link: 'https://github.com/OpenLLM-Ro/lm-evaluation-harness',
@@ -61,13 +61,13 @@ export const NewsBulletin = () => {
       link: 'https://huggingface.co/collections/OpenLLM-Ro/romistral-6647241bf2cbbe9fd8c2afa4',
       date: '2024-05-17',
       type: 'Fine-Tune Release',
-      text: 'New fine-tuned based on Mistral: OpenLLM-Ro/romistral',
+      text: 'New fine-tuned model based on Mistral: OpenLLM-Ro/romistral',
     },
     {
       link: 'htps://huggingface.co/collections/OpenLLM-Ro/rollama2-664722bbf536ec14701ec81d',
       date: '2024-05-14',
       type: 'Fine-Tune Release',
-      text: 'New fine-tuned based on Llama2: OpenLLM-Ro/rollama2',
+      text: 'New fine-tuned model based on Llama2: OpenLLM-Ro/rollama2',
     },
     {
       link: '/comunicat.pdf',
