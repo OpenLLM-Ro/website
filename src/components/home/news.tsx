@@ -10,6 +10,12 @@ const NewsEntry: React.FC<{ link: string; children: ReactNode }> = ({ link, chil
 export const NewsBulletin = () => {
   const entries: { link: string; text: string; type: string; date: string }[] = [
     {
+      link: 'https://huggingface.co/faur-ai/LLMic',
+      date: '2025-01-13',
+      type: 'Fine-Tune Release',
+      text: 'Faur AI team released LLMic - a bilingual Ro-En foundation language model',
+    },
+    {
       link: 'https://huggingface.co/OpenLLM-Ro',
       date: '2024-10-09',
       type: 'Release',
