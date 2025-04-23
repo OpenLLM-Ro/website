@@ -13,6 +13,10 @@ export const NewsBulletin = () => (
       News:
     </Text>
 
+    <News link={'https://huggingface.co/OpenLLM-Ro'}>
+      23.04.2025 - released new models and data
+    </News>
+    
     <News link={'https://huggingface.co/faur-ai/LLMic'}>
       13.01.2025 - Faur AI team released LLMic - a bilingual Ro-En foundation language model
     </News>
