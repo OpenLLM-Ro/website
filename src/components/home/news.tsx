@@ -13,6 +13,14 @@ export const NewsBulletin = () => (
       News:
     </Text>
 
+    <News link={'https://huggingface.co/collections/OpenLLM-Ro/pretraining-datasets'}>
+      28.11.2025 - released augmented pretraining data and quality classifier
+    </News>
+
+    <News link={'https://arxiv.org/abs/2511.01090'}>
+      28.11.2025 - new preprint on improving pretraining data quality for Romanian
+    </News>
+
     <News link={'https://huggingface.co/OpenLLM-Ro'}>
       23.04.2025 - released new models and data
     </News>
