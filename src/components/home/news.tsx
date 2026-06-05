@@ -13,6 +13,10 @@ export const NewsBulletin = () => (
       News:
     </Text>
 
+    <News link={'https://huggingface.co/OpenLLM-Ro'}>
+      05.06.2026 - released code & training and evaluation data for Romanian Vision Language Models
+    </News>
+  
     <News link={'https://arxiv.org/abs/2605.31401'}>
       02.06.2026 - new preprint on Romanian Models beyond text - Romanian Vision Language Models
     </News>
