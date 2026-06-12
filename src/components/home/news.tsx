@@ -14,7 +14,7 @@ export const NewsBulletin = () => (
     </Text>
 
     <News link={'https://huggingface.co/OpenLLM-Ro/RoLlama-3.2-1B'}>
-      12.06.2026 - released RoLlama-3.2-1B, a compact 1B-parameter Romanian LLM with a 4-bit quantized release for efficient local inference
+      12.06.2026 - released RoLlama-3.2-1B a 4-bit quantized release for efficient local inference
     </News>
 
     
